@@ -1,0 +1,109 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(24,24,24);
+    height: 100vh;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    height: 75px;
+    align-items: center;
+}
+
+#header-nav-bar ul{
+    display: flex;
+}
+
+#header-nav-bar ul li a {
+    margin-left: 25px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+#vamos-la a{
+    border: 2px solid purple;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#header-nav-bar ul li a:hover {
+    color: grey;
+}
+
+/*Main*/
+main {
+    display: flex;
+    align-items: center;
+    margin-left: 14%;
+    height: 75vh;
+    background: url("../img/codificacao.png") no-repeat;
+    background-size: 400px;
+    background-position: 80% 80%;
+}
+
+
+main > div {
+    width: 50%;
+    height: 50%;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+main div span {
+    color: purple;
+}
+
+main div h2{
+    margin: 20px 0px; 
+}
+
+#formulario-inscricao {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario-inscricao input {
+    width: 35%;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px 0px 5px 10px;
+    color: gray;
+}
+
+#formulario-inscricao button {
+    width: 15%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: grey;
+}
+
+footer {
+    color: whitesmoke;
+    height: 10vh;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
